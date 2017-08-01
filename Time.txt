@@ -1,0 +1,20 @@
+
+ Number of processors: 1
+ Number of vertices: 128
+ Time of execution: 0.005692
+ Total Weight: 184
+
+ Number of processors: 2
+ Number of vertices: 128
+ Time of execution: 0.003699
+ Total Weight: 184
+
+ Number of processors: 4
+ Number of vertices: 128
+ Time of execution: 0.019089
+ Total Weight: 184
+
+ Number of processors: 8
+ Number of vertices: 128
+ Time of execution: 0.034099
+ Total Weight: 184

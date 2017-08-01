@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#PBS -l ncpus=4
+#PBS -l nodes=2:ppn=2
+#PBS -o /MST/o_PrimMPI
+#PBS -e /MST/e_PrimMPI
+#PBS -q wsuq
+ 
+module load openmpi-1.8.8
+/wsu/apps/gnu-4.4.7/openmpi/openmpi-1.8.8/bin/mpirun \
+-machinefile $PBS_NODEFILE \
+-np 4 \
+/MST/PrimMPI

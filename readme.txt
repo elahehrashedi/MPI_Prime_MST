@@ -1,11 +1,9 @@
-# Prim Minimum Spanning Tree using MPI
 
-
-In this program,  Prim MST is implemented using MPI.
+In this program,  Prim MST is implemented.
 
 jobscript2 and jobscript4 and jobscript8 include 2 and 4 and 8 processors.
 
-The path for files is set to "/MST/" inside the code, and the mpicc address is set to "/wsu/apps/gnu-4.4.7/openmpi/openmpi-1.8.8/bin/mpicc".
+The path for files is set to "/wsu/home/fp/fp06/fp0634/hw6/" inside the code. 
 
 Matrix.txt includes the size of vertices plus the adjacncy matrix. Here I used 1000 as infinity number. the adjacancy matrix is only upper triangle
 if Matrix,.txt only includes the size of vertices, then the algorithm generates the adjacancy matrix randomly.
