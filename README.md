@@ -20,37 +20,56 @@ Time.txt includes the running time of algorithm.
 The Time.txt includes below values at the end:
 
 /*********************************************/
+
  Number of processors: 2
+
  Number of vertices: 128
+
  Time of execution: 0.003699
+
  Total Weight: 184
 
 /*********************************************/
 
  Number of processors: 4
+
  Number of vertices: 128
+
  Time of execution: 0.019089
+
  Total Weight: 184
 
 /*********************************************/
 
  Number of processors: 8
+
  Number of vertices: 128
+
  Time of execution: 0.034099
+
  Total Weight: 184
  
 /*********************************************/ 
+
 The total weight might be different because the matrix is random
 
 The execution time for two prcessors is less than excecution time for 4 or 8 processors
 
 the execution time for 1 processor is :
+
  Number of processors: 1
+
  Number of vertices: 128
+
  Time of execution: 0.005692
+
  Total Weight: 184
 
+
 So the speedup for 2 processors is : 0.005692 / 0.003699 = 1.5
+
 So the speedup for 4 processors is : 0.005692 / 0.019089 = 0.3
+
 So the speedup for 8 processors is : 0.005692 / 0.034099 = 0.166
+
 
